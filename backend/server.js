@@ -62,7 +62,7 @@ async function start() {
     res.status(204).send();
   });
 
-  app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+  app.listen(PORT,'127.0.0.1', () => console.log(`http://localhost:${PORT}`));
 }
 
 start().catch((e) => {
