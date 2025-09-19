@@ -40,7 +40,7 @@ async function start() {
   });
 
   app.get("/api/debug", (req, res)=>{
-    res.jsonp({
+    res.json({
       ip:req.ip,
       headers:{
         host: req.headers["host"],
