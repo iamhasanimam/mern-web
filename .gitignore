@@ -64,3 +64,6 @@ test-results/
 *.swp
 .DS_Store
 Thumbs.db
+
+additional
+steps to build.md
